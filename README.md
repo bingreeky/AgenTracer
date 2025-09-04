@@ -56,14 +56,6 @@ llm:
 
 
 
-#### Evaluation Framework Configuration
-
-Edit `eval_whp_when/config/eval.yaml` with your model configuration:
-```yaml
-model: qwen/qwen3-8b  # Your model name
-temperature: 0.0      # Temperature for generation
-n: 1                  # Number of samples per prediction
-```
 
 ## 🚀 Quick Start
 
@@ -84,33 +76,6 @@ python universal_framework.py \
   --max_rounds 3 \
   --max_tasks 10
 ```
-
-
-### Evaluation Framework
-
-The evaluation framework provides comprehensive assessment of "Who" and "When" error detection capabilities:
-
-```bash
-# Navigate to evaluation directory
-cd eval_whp_when
-
-# Run evaluation on coding dataset
-python eval_coding_and_math_data/run_eval_coding.py
-
-# Run evaluation on math dataset
-python eval_coding_and_math_data/run_eval_math.py
-
-# Run evaluation on custom dataset
-python eval.py \
-  --dataset Kevin355/Who_and_When \
-  --subset Hand-Crafted \
-  --split train \
-  --output results/ \
-  --concurrency 10 \
-  --groundtruth \
-  --skip-existing
-```
-
 
 
 ## 🫡 Citation

@@ -1,0 +1,7 @@
+sequenceDiagram
+    participant IC as InversionCounter
+    participant A as Array
+    IC->>A: count_inversions(arr)
+    A-->>IC: return array
+    IC->>IC: merge_and_count(arr, left, mid, right)
+    IC-->>A: return inversion count

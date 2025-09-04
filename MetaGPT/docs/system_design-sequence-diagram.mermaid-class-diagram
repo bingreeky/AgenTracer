@@ -1,0 +1,5 @@
+classDiagram
+    class InversionCounter {
+        +count_inversions(arr: list[int]) -> int
+        +merge_and_count(arr: list[int], left: int, mid: int, right: int) -> int
+    }
