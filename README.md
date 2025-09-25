@@ -1,15 +1,5 @@
 # AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?
 
-![image](./assets/framework.png)
-
-
-
-## 👋 Introduction
-
-**AgenTracer** provides comprehensive tools for generating and evaluating training data that identifies **"Who"** (which agent/component) made mistakes and **"When"** (at which step) errors occurred in LLM agentic systems.
-
-This codebase provides a minimal working example where AgenTracer is applied to MetaGPT for data curation.
-
 ## 🌎 Setup
 
 ### Prerequisites
@@ -78,18 +68,3 @@ python universal_framework.py \
 ```
 
 
-## 🫡 Citation
-
-If you find this repository helpful, a citation would be greatly appreciated:
-
-```bibtex
-@misc{zhang2025agentracer,
-      title={AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?}, 
-      author={Guibin Zhang and Junhao Wang and Junjie Chen and Wangchunshu Zhou and Kun Wang and Shuicheng Yan},
-      year={2025},
-      eprint={2509.03312},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2509.03312}, 
-}
-```
