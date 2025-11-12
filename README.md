@@ -1,4 +1,4 @@
-# AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?
+# AgenTracer Data Pipeline
 
 ![image](./assets/framework.png)
 
@@ -7,6 +7,12 @@
 ## 👋 Introduction
 
 **AgenTracer** provides comprehensive tools for generating and evaluating training data that identifies **"Who"** (which agent/component) made mistakes and **"When"** (at which step) errors occurred in LLM agentic systems.
+
+> Note: Our current open-source efforts focus on providing an **automated failure attribution trajectory curation pipeline**. A **system rollback feature** will be released soon for agentic data!
+>
+> We commit to open-sourcing the model weights and training data/scripts upon acceptance of the paper!
+>
+> For any specific questions, please feel free to raise an issue or email me at guibinz@outlook.com, and I will do my best to help. Thank you!
 
 This codebase provides a minimal working example where AgenTracer is applied to MetaGPT for data curation.
 
