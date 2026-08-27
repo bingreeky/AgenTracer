@@ -8,9 +8,9 @@
 
 **AgenTracer** provides comprehensive tools for generating and evaluating training data that identifies **"Who"** (which agent/component) made mistakes and **"When"** (at which step) errors occurred in LLM agentic systems.
 
-> Note: Our current open-source efforts focus on providing an **automated failure attribution trajectory curation pipeline**. A **system rollback feature** will be released soon for agentic data!
+> **Data Release:** We have released an expanded version of the data [here](https://github.com/bingreeky/AgenTracer/releases/tag/data-v1.0.0). Due to differences in data versions and curation, the released data is not exactly identical to the version reported in the paper and contains additional samples.
 >
-> We commit to open-sourcing the model weights and training data/scripts upon acceptance of the paper!
+> **Model Weights:** Due to internal considerations, we currently have no plans to release the AgenTracer-8B model weights.
 >
 > For any specific questions, please feel free to raise an issue or email me at guibinz@outlook.com, and I will do my best to help. Thank you!
 
